@@ -1,0 +1,31 @@
+## Copy below lines under current content of .gitconfig file
+	[color]
+	        diff = auto
+	        status = auto
+	        branch = auto
+	        interactive = auto
+	        ui = true
+	        pager = true
+
+	[color "branch"]
+	        current = yellow reverse
+	        local = yellow
+	        remote = green
+
+	[color "diff"]
+	        meta = yellow bold
+	        frag = magenta bold
+	        old = red bold
+	        new = green bold
+
+	[color "status"]
+	        added = yellow
+	        changed = green
+	        untracked = cyan
+
+	[alias]
+	  		panic = !tar cvf ../git_panic.tar *
+	  		co = checkout
+	  		br = branch
+	  		mav = !afplay -s 0 12 ~/Music/iTunes/iTunes\\ Music/Kenny\\ Loggins/Top\\ Gun/Danger\\ Zone.mp3 &\ngit rebase -i  
+	  		lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
