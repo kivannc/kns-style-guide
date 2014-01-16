@@ -25,6 +25,9 @@
 
 - **.gitignore** ; use this repo's ``.gitignore`` file in any future project 
 
+- **.gitconfig** ; use this repo's ``.gitconfig`` for coloring and syntatic sugars. 
+  ``Append this file your ~/.gitconfig file.``
+
 - **Indentation / General Settings**
 	+ ``indentation``: 4 spaces always, dont use TABS!
 	+ ``line-endings``: Always use unix style line-ending i.e "\n"
