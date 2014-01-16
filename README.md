@@ -84,7 +84,7 @@
   ```  
     
     
-  - ** Objects **: 
+  - **Objects**: 
  
  	```
  	// bad
@@ -93,7 +93,7 @@
  	var storeDictionary = {};
     ```
     
-  - ** Arrays **:
+  - **Arrays**:
     
     ```
  	// bad
